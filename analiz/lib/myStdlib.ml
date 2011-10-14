@@ -1,7 +1,8 @@
 
 (* stdlib by wistery_k. *)
 
-let ( $ ) f x = f x
+let ( $ ) f g x = f g x
+let ( $$ ) f x = f x
 
 let ( +> ) x f =
   match x with
